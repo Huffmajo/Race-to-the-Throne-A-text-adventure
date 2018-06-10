@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B5AF6EC2050DF4500A69BA6 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AF6EA2050DF4400A69BA6 /* utils.cpp */; };
 		6B7C7537204CBFAA00C630A2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C7536204CBFAA00C630A2 /* main.cpp */; };
+		6B7C753F204CBFB600C630A2 /* Space.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C753D204CBFB600C630A2 /* Space.cpp */; };
+		6B7C7542204CC31A00C630A2 /* LinkedDungeon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C7540204CC31A00C630A2 /* LinkedDungeon.cpp */; };
+		6BC5E7162054A51300B2B767 /* UseItemRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5E7142054A51300B2B767 /* UseItemRoom.cpp */; };
+		6BC5E7192054AF4000B2B767 /* ItemRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5E7172054AF4000B2B767 /* ItemRoom.cpp */; };
+		6BC5E71C2054B78B00B2B767 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5E71A2054B78B00B2B767 /* Player.cpp */; };
+		6BF8AEDC20574E080015E566 /* TalkRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8AEDA20574E080015E566 /* TalkRoom.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6B5AF6EA2050DF4400A69BA6 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		6B5AF6EB2050DF4400A69BA6 /* utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utils.hpp; sourceTree = "<group>"; };
 		6B7C7533204CBFAA00C630A2 /* legend of dungeon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "legend of dungeon"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7C7536204CBFAA00C630A2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B7C753D204CBFB600C630A2 /* Space.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Space.cpp; sourceTree = "<group>"; };
+		6B7C753E204CBFB600C630A2 /* Space.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Space.hpp; sourceTree = "<group>"; };
+		6B7C7540204CC31A00C630A2 /* LinkedDungeon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedDungeon.cpp; sourceTree = "<group>"; };
+		6B7C7541204CC31A00C630A2 /* LinkedDungeon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedDungeon.hpp; sourceTree = "<group>"; };
+		6BC5E7142054A51300B2B767 /* UseItemRoom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UseItemRoom.cpp; sourceTree = "<group>"; };
+		6BC5E7152054A51300B2B767 /* UseItemRoom.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UseItemRoom.hpp; sourceTree = "<group>"; };
+		6BC5E7172054AF4000B2B767 /* ItemRoom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ItemRoom.cpp; sourceTree = "<group>"; };
+		6BC5E7182054AF4000B2B767 /* ItemRoom.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ItemRoom.hpp; sourceTree = "<group>"; };
+		6BC5E71A2054B78B00B2B767 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		6BC5E71B2054B78B00B2B767 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		6BF8AEDA20574E080015E566 /* TalkRoom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TalkRoom.cpp; sourceTree = "<group>"; };
+		6BF8AEDB20574E080015E566 /* TalkRoom.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TalkRoom.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				6B7C7536204CBFAA00C630A2 /* main.cpp */,
+				6BC5E71A2054B78B00B2B767 /* Player.cpp */,
+				6BC5E71B2054B78B00B2B767 /* Player.hpp */,
+				6B7C753D204CBFB600C630A2 /* Space.cpp */,
+				6B7C753E204CBFB600C630A2 /* Space.hpp */,
+				6BC5E7142054A51300B2B767 /* UseItemRoom.cpp */,
+				6BC5E7152054A51300B2B767 /* UseItemRoom.hpp */,
+				6BC5E7172054AF4000B2B767 /* ItemRoom.cpp */,
+				6BC5E7182054AF4000B2B767 /* ItemRoom.hpp */,
+				6BF8AEDA20574E080015E566 /* TalkRoom.cpp */,
+				6BF8AEDB20574E080015E566 /* TalkRoom.hpp */,
+				6B7C7540204CC31A00C630A2 /* LinkedDungeon.cpp */,
+				6B7C7541204CC31A00C630A2 /* LinkedDungeon.hpp */,
+				6B5AF6EA2050DF4400A69BA6 /* utils.cpp */,
+				6B5AF6EB2050DF4400A69BA6 /* utils.hpp */,
 			);
 			path = "legend of dungeon";
 			sourceTree = "<group>";
@@ -119,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7C753F204CBFB600C630A2 /* Space.cpp in Sources */,
+				6BC5E71C2054B78B00B2B767 /* Player.cpp in Sources */,
 				6B7C7537204CBFAA00C630A2 /* main.cpp in Sources */,
+				6BC5E7162054A51300B2B767 /* UseItemRoom.cpp in Sources */,
+				6BC5E7192054AF4000B2B767 /* ItemRoom.cpp in Sources */,
+				6B7C7542204CC31A00C630A2 /* LinkedDungeon.cpp in Sources */,
+				6BF8AEDC20574E080015E566 /* TalkRoom.cpp in Sources */,
+				6B5AF6EC2050DF4500A69BA6 /* utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
